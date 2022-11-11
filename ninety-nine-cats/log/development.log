@@ -218,3 +218,21 @@ Processing by CatsController#new as HTML
 Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2422)
 
 
+Started GET "/cats/new" for ::1 at 2022-11-11 15:44:40 -0800
+Processing by CatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1765)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 2473)
+
+
+Started GET "/cats/new" for ::1 at 2022-11-11 15:44:41 -0800
+Processing by CatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering cats/new.html.erb within layouts/application
+  Rendered cats/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1152)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 1379)
+
+
