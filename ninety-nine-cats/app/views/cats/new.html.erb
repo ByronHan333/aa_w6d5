@@ -1,20 +1,3 @@
 <h1>Create Cat</h1>
-<form action = "<%= cats_url  %>" method="POST">
-<label for="name">Name</label>
-<input id="name" type="text" name="cat[name]" placeholder ="<%= @cat.name  %>">
 
-<label for="name">Name</label>
-<input id="name" type="text" name="cat[name]" placeholder ="<%= @cat.name  %>">
-
-<label for="name">Name</label>
-<input id="name" type="text" name="cat[name]" placeholder ="<%= @cat.name  %>">
-
-<label for="name">Name</label>
-<input id="name" type="text" name="cat[name]" placeholder ="<%= @cat.name  %>">
-
-<label for="name">Name</label>
-<input id="name" type="text" name="cat[name]" placeholder ="<%= @cat.name  %>">
-
-
-
-</form>
+<%= render 'form', cat: @cat, action: :new %>

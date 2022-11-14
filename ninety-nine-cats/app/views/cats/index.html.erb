@@ -1,9 +1,5 @@
 
   <% @cats.each do |cat| %>
-    <li>Name: <%= cat.name %></li>
-    <li>Birth Date: <%= cat.birth_date %></li>
-    <li>Color: <%= cat.color %></li>
-    <li>Sex: <%= cat.sex %></li>
-    <li>Description: <%= cat.description %></li>
+    <%= render 'table', cat: cat %>
     <br>
   <% end %>
